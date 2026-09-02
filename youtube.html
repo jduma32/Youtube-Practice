@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    
+    <!-- HEADER SECTION -->
+    <div class="header">
+        <div class="left-section"> 
+            <img class="hamburger-menu" src="channel-pictures/hamburger.svg"> 
+            <a class="video-link" href="https://www.youtube.com/" target="_blank">
+                <img class="youtube-logo" src="channel-pictures/youtube.svg">
+            </a>
+        </div>
+
+        <div class="middle-section">
+            <form action="https://www.youtube.com/results" method="GET" target="_blank" class="search-form">
+                <input class="search-bar" name="search_query" type="text" placeholder="search">
+                <button class="search-button" type="submit">
+                    <img src="channel-pictures/search.svg">
+                    <div class="tool-tip">Search</div>
+                </button>
+            </form>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="channel-pictures/mic.svg">
+                <div class="tool-tip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="channel-pictures/+.svg">
+                <div class="tool-tip">Create</div>
+            </div>
+
+            <div class="notification-icon-container">
+                <img class="notification-icon" src="channel-pictures/notif.svg">
+                <div class="tool-tip">Notifications</div>
+                <div class="notifications-count">3</div>
+            </div>
+            
+            <div class="channel-picture-container">
+                <img class="current-user-picture" src="channel-pictures/goku.svg">
+                <div class="tool-tip">You</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIDEBAR NAVIGATION -->
+    <div class="sidebar">
+        <a class="video-link" href="https://www.youtube.com/" target="_blank">
+            <div class="sidebar-link">
+                <img class="side-bar-icons" src="icons/youtube-home.svg"> 
+                <div> Home </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://www.youtube.com/shorts/" target="_blank">
+            <div class="sidebar-link">
+                <img class="side-bar-icons" src="icons/youtube-shorts.svg"> 
+                <div> Shorts </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://www.youtube.com/feed/subscriptions" target="_blank">
+            <div class="sidebar-link">
+                <img class="side-bar-icons" src="icons/youtube-sub.svg"> 
+                <div> Subscriptions </div>
+            </div>
+        </a>
+
+        <a class="video-link" href="https://www.youtube.com/feed/you" target="_blank">
+            <div class="sidebar-link">
+                <img class="side-bar-icons" src="icons/youtube-you.svg"> 
+                <div> You </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- MAIN VIDEO GRID -->
+    <div class="video-grid">
+
+        <!-- Video Card 1 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=zc-2FBekJlk&t=5s" target="_blank">    
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/bbc-news.avif">
+                    <div class="video-time">2:51</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/cnn-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Seven killed and 23 missing after boat capsizes off northern Cyprus | BBC News
+                        </p>
+                        <p class="video-author">
+                            BBC News
+                        </p>
+                        <p class="video-stats"> 
+                            222K views &middot; 15 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 2 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=mztADNX-4xU" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/donald-trump.avif">
+                    <div class="video-time">10:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/bbc-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            'Mission Accomplished': Trump posts celebration despite ongoing Iran war
+                        </p>
+                        <p class="video-author">
+                            CNN
+                        </p>
+                        <p class="video-stats"> 
+                            122K views &middot; 12 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 3 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=b-If5Nq0log&t=40s" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/charlie.avif">
+                    <div class="video-time">11:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/charlie-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Thoughts on the GTA 6 Gameplay Reveal
+                        </p>
+                        <p class="video-author">
+                            penguinz0
+                        </p>
+                        <p class="video-stats"> 
+                            4.2M views &middot; 3 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 4 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=tJbzMqJGH4k&t=3s" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/gta6.avif">
+                    <div class="video-time">26:48</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/rockstar-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Grand Theft Auto VI: An Extended Look
+                        </p>
+                        <p class="video-author">
+                            Rockstar Games
+                        </p>
+                        <p class="video-stats"> 
+                            15M views &middot; 3 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>   
+        </a>
+
+        <!-- Video Card 5 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=qn7a5F9oJwo" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/black-cat.avif">
+                    <div class="video-time">1:27</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/marvel-rivals-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Black Cat: The Master Thief| Character Reveal Trailer | Marvel Rivals
+                        </p>
+                        <p class="video-author">
+                            Marvel Rivals
+                        </p>
+                        <p class="video-stats"> 
+                            4.2M views &middot; 4 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 6 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=MnrJzXM7a6o&t=5s" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/steve-jobs.avif">
+                    <div class="video-time">10:19</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/steve-jobs-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Steve Jobs introduces iPhone in 2007
+                        </p>
+                        <p class="video-author">
+                            John Schroter
+                        </p>
+                        <p class="video-stats"> 
+                            49M views &middot; 14 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 7 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=xLTCivIB4kU&t=2s" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/travel-blog.avif">
+                    <div class="video-time">18:51</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/brett-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Most Perfect Country on the Planet | Switzerland
+                        </p>
+                        <p class="video-author">
+                            Brett Conti
+                        </p>
+                        <p class="video-stats"> 
+                            8.1M views &middot; 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 8 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=WVc4uTJmKy4" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/angel.avif">
+                    <div class="video-time">1:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/marvel-rivals-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Angela: The Hand of Heven Descends | Character Reveal | Marvel Rivals
+                        </p>
+                        <p class="video-author">
+                            Marvel Rivals
+                        </p>
+                        <p class="video-stats"> 
+                            10M views &middot; 11 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Video Card 9 -->
+        <a class="video-link" href="https://www.youtube.com/watch?v=hrX8Uzy8GfE" target="_blank">
+            <div class="video-preview"> 
+                <div class="thumbnail-row"> 
+                    <img class="thumbnail" src="thumbnails/best-food.avif">
+                    <div class="video-time">25:16</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">   
+                        <img class="profile-picture" src="./channel-pictures/best-food-channel.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Korean Street Food After Dark!! (Jeju Fire and Ash)
+                        </p>
+                        <p class="video-author">
+                            Markiplier
+                        </p>
+                        <p class="video-stats"> 
+                            1.7 views &middot; 2 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</body>
+</html>
